@@ -1,15 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang='pt-br'>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="./assets/hdchostlogo.png" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/482cc93d72.js"  crossorigin="anonymous" defer></script>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <!-- <link rel='stylesheet' href='style.css'> -->
+  <link rel='shortcut icon' href='./assets/smfhostlogo.png' type='image/x-icon'>
+  <script src='https://kit.fontawesome.com/482cc93d72.js'  crossorigin='anonymous' defer></script>
   <title>SMF Host</title>
 </head>
 <body>
-  <h1>#BullsNation</h1>
+  <div class='container'>
+    <div class='navbar-container'>
+      <nav>
+        <a href='#'><img class='logo' src='./assets/smfhostlogo.png' alt='SMF Logo'></a>
+        <ul class='navbar-items'>
+          <li><a href='#'>Home</a></li>
+          <li><a href='#'>Planos</a></li>
+          <li><a href='#'>Contato</a></li>
+          <li><a href='#' class='default-btn'>Login</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <div class='main-banner'>
+        <h1>SMF Host</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+    <section class='specialties-container'>
+      <ul>
+        <li>
+          <i class='fas fa-shield-alt'></i>
+          <h3>Segurança</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus adipisci facere vel cum eligendi! Fugiat sequi repellat amet cupiditate dolorem culpa, itaque quod similique delectus voluptate, labore dicta aliquam mollitia.</p>
+        </li>
+        <li>
+          <i class='fas fa-rocket'></i>
+          <h3>Velocidade</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus adipisci facere vel cum eligendi! Fugiat sequi repellat amet cupiditate dolorem culpa, itaque quod similique delectus voluptate, labore dicta aliquam mollitia.</p>
+        </li>
+        <li>
+          <i class='fas fa-comments'></i>
+          <h3>Suporte</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus adipisci facere vel cum eligendi! Fugiat sequi repellat amet cupiditate dolorem culpa, itaque quod similique delectus voluptate, labore dicta aliquam mollitia.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class='pricing-container'>
+      <h1>Planos e Preços</h1>
+      <p>Selecione o plano ideal para você !</p>
+        <div class='plans-container'>
+          <div class='plan'>
+            <ul>
+              <li class='price'>R$15/mês</li>
+              <li class='plan-name'>Padrão</li>
+              <li>2GB de espaço em disco</li>
+              <li>10 Sub-domínios</li>
+              <li>20 Contas de e-mail</li>
+              <li>C-Panel</li>
+              <li>Suporte 24/7</li>
+              <li class='plan-btn'>Selecionar</li>
+            </ul>
+          </div>
+          <div class='plan'>
+            <ul>
+              <li class='price'>R$30/mês</li>
+              <li class='plan-name'>Dedicado</li>
+              <li>5GB de espaço em disco</li>
+              <li>20 Sub-domínios</li>
+              <li>50 Contas de e-mail</li>
+              <li>C-panel</li>
+              <li>Suporte 24/7</li>
+              <li class='plan-btn'>Selecionar</li>
+            </ul>
+          </div>
+          <div class='plan'>
+            <ul>
+              <li class='price recommended'>R$50/mês</li>
+              <li class='plan-name'>Dedicado Plus</li>
+              <li>10GB de espaço em disco</li>
+              <li>100 Sub-domínios</li>
+              <li>100 Contas de e-mail</li>
+              <li>C-panel</li>
+              <li>Suporte 24/7</li>
+              <li class='plan-btn recommended'>Selecionar</li>
+            </ul>
+          </div>
+          <div class='plan'>
+            <ul>
+              <li class='price'>R$100/mês</li>
+              <li class='plan-name'>Cloud</li>
+              <li>20GB de espaço em disco</li>
+              <li>200 Sub-domínios</li>
+              <li>200 Contas de e-mail</li>
+              <li>C-panel</li>
+              <li>Suporte 24/7</li>
+              <li class='plan-btn'>Selecionar</li>
+            </ul>
+         </div>
+        </div>
+    </section>
+
+    <section class='searchdomain-container'>
+      <h2>Buscar um domínio</h2>
+      <p>Veja se o domínio que você deseja está disponível.</p>
+      <form>
+        <input type='text' name='domain' placeholder='Digite seu domínio desejado'>
+        <input type='submit' value='Buscar Domínio'>
+      </form>
+    </section>
+    <section class='contact-container'>
+      <h2>Entre em contato</h2>
+      <p>Caso desejar sinta-se a vontade para entrar em contato conosco.</p>
+      <form>
+        <input type='text' name='name' placeholder='Seu nome'>
+        <input type='email' name='email' placeholder='Seu e-mail'>
+        <textarea name='message' placeholder='Digite sua mensagem'></textarea>
+        <input type='submit' value='Enviar'>
+      </form>
+    </section>
+    <footer>
+      <p>Desenvolvido por Ferrari | horaDeCodar @ 2019</p>
+    </footer>
+    </main>
+
+  </div>
 </body>
 </html>
